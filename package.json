@@ -1,0 +1,55 @@
+{
+  "name": "frisby-composable-func",
+  "version": "1.0.0",
+  "description": "Code from course Professor Frisby Introduces Composable Functional JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhatIfWeDigDeeper/frisby-composable-func-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "functional",
+    "fp"
+  ],
+  "author": "Dr. Frisby with help from what if",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WhatIfWeDigDeeper/frisby-composable-func-js/issues"
+  },
+  "homepage": "https://github.com/WhatIfWeDigDeeper/frisby-composable-func-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-lodash-fp": "^2.1.3",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "data.either": "^1.5.1",
+    "data.task": "^3.1.1",
+    "fantasy-identities": "0.0.1",
+    "futurize": "^1.2.0",
+    "immutable": "^3.8.1",
+    "immutable-ext": "^1.1.2",
+    "lodash": "^4.17.4",
+    "mori": "^0.3.2",
+    "request": "^2.83.0"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text-summary",
+      "lcov"
+    ]
+  }
+}
