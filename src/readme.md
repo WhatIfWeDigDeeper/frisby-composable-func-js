@@ -17,18 +17,10 @@ Monadic interface
 
 Natural Transformation
 
-`       map(f)`
-
-`F(a) - - - - -> F(b)`
-
-`    |         |`
-
-` nt |         | nt`
-
-`    |         |`
-
-`G(a) - - - - -> G(b)`
-
-`       map(f)`
-
-
+|   |map(f)|  |
+|---|:---:|---|
+|F(a)|  -->   |F(b)|
+|   |     |   |
+|nt |     |nt |
+|   |     |   |
+|G(a)| -->    |G(b)|
