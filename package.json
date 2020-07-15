@@ -34,7 +34,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "istanbul": "^0.4.5",
     "jest": "^20.0.4",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "dependencies": {
     "data.either": "^1.5.1",
